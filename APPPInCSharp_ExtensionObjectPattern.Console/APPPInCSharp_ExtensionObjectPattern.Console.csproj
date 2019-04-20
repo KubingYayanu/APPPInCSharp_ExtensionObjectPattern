@@ -43,8 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assembly.cs" />
+    <Compile Include="BadPartExtension.cs" />
+    <Compile Include="CsvAssemblyExtension.cs" />
+    <Compile Include="CsvPartExtension.cs" />
+    <Compile Include="CsvPiecePartExtension.cs" />
+    <Compile Include="Part.cs" />
+    <Compile Include="PartExtension.cs" />
+    <Compile Include="PiecePart.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XmlAssemblyExtension.cs" />
+    <Compile Include="XmlPartExtension.cs" />
+    <Compile Include="XmlPiecePartExtension.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
